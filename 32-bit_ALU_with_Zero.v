@@ -45,7 +45,7 @@ module ALU_with_Zero ( a, b, sel, cout, y, Z_flag);
 
 		// Check if final output is empty
 		begin
-			if (y == N'b0)
+			if (y == 32'b0)
 				Z_flag <= 1'b1;
 			else
 				Z_flag <= 1'b0;
